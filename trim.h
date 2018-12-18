@@ -10,3 +10,11 @@
  * Interface for trim
  * ----------------------------------------------------------
  */
+ #ifndef ___TRIM_H
+ #define ___TRIM_H
+ #define STRLEN 16
+ const char* empty_substring(const char* source, char* trimmed);
+ void get_firstLetter(const char* source, int *firstLetter);
+ void get_lastLetter(const char* source, int *lastLetter);
+ void trim(const char * source, char * trimmed_string);
+ #endif
